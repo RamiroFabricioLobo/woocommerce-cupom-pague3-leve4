@@ -9,10 +9,9 @@ add_action('woocommerce_cart_calculate_fees' , 'ganhe_um_produto');
 function ganhe_um_produto( WC_Cart $cart ){
 	
 	// Define a quatidade de mínima de produtos no carrinho necessário para a promoção
-	// Se for pague 3 e leve 4, a quantidade mínima de produtos será 4
+	// Se for tipo "pague 3 e leve 4", a quantidade mínima de produtos será 4.
 	$ItQuantidadeMinima = 4;
 	
-	// Define o nome do cupom
 	// Preencha com o nome do cupom que você criou
 	$StNomeCupom = 'Digite aqui o nome do cupom';
 	
