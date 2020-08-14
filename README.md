@@ -14,9 +14,9 @@ Copie o código disponível no arquivo code.php deste repositório e cole dentro
 
 ## Passo 3
 
-**Altere a variável $ItQuantidadeMinima**
+### Altere a variável $ItQuantidadeMinima
 Define a quatidade mínima de produto carrinho necessário para a promoção. Se for do tipo "pague 3 e leve 4", a quantidade mínima de produtos será 4.
 
-**Altere a variável $StNomeCupom**
+### Altere a variável $StNomeCupom
 Preencha com o nome do cupom que você criou.
 ![functions.php](https://raw.githubusercontent.com/RamiroFabricioLobo/woocommerce-cupom-pague3-leve4/master/cupom-functions.jpg)
